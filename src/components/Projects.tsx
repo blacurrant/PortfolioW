@@ -36,8 +36,7 @@ function Projects({}: Props) {
             <Image className='opacity-70 hover:opacity-20 transition-all duration-200' src={dex} alt='' />
             <div className='absolute flex flex-col justify-center items-center text-center text-white bg-black/70 w-[400px] lg:w-[600px] p-5 lg:p-10 gap-3'>
               <h1 className='text-xl lg:text-4xl md:font-bold'>Project 2: Dex</h1>
-              <span className='text-sm lg:text-xl'>Planning for a trip? DREAM ADVISOR got you covered, find all the Hotels,
-                Restaurants and Local Attractions for wherever you are headed next in one click.</span>
+              <span className='text-sm lg:text-xl'>A responsive food delivery website for all your needs. A one stop shop to get your veggies and fruits delivered right at your doorstep.</span>
                 <div className='flex gap-10'>
                   <Link href='https://strong-monstera-3b1957.netlify.app'> <button className='bg-white text-black text-md lg:text-xl font-bold px-5 py-2 lg:py-3 rounded-md border-b border-black'>Link</button> </Link>
                   <Link href='https://github.com/blacurrant/uEngage-dex'> <button className='bg-white text-black text-md lg:text-xl font-bold px-5 py-2 lg:py-3 rounded-md border-b border-black' >Github</button> </Link>
@@ -48,8 +47,7 @@ function Projects({}: Props) {
             <Image className='opacity-70 hover:opacity-20 transition-all duration-200' src={portfolio} alt='' />
             <div className='absolute flex flex-col justify-center items-center text-center text-white bg-black/70 w-[400px] lg:w-[600px] p-5 lg:p-10 gap-3'>
               <h1 className='text-xl lg:text-4xl md:font-bold'>Project 3: Portfolio</h1>
-              <span className='text-sm lg:text-xl'>Planning for a trip? DREAM ADVISOR got you covered, find all the Hotels,
-                Restaurants and Local Attractions for wherever you are headed next in one click.</span>
+              <span className='text-sm lg:text-xl'>For the lack thereof projects, You're seeing it right now.</span>
                 <div className='flex gap-10'>
                   <button className='bg-white text-black text-md lg:text-xl font-bold px-5 py-2 lg:py-3 rounded-md border-b border-black'>Link</button>
                   <button className='bg-white text-black text-md lg:text-xl font-bold px-5 py-2 lg:py-3 rounded-md border-b border-black' >Github</button>
