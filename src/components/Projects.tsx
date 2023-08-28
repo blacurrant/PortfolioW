@@ -1,10 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
-import dex from '../img/dex.png';
 import travel from '../img/travel.png';
-import portfolio from '../img/portfolio.png';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import sum from '../img/sumz.png';
+import  github from '../img/githubview.png'
 
 
 type Props = {}
@@ -33,10 +33,10 @@ function Projects({}: Props) {
             </div>
           </div>
           <div className='relative w-fit flex flex-col flex-shrink-0 justify-center items-center snap-center rounded-sm h-[700px]'>
-            <Image className='opacity-70 hover:opacity-20 transition-all duration-200' src={dex} alt='' />
+            <Image className='opacity-70 hover:opacity-20 transition-all duration-200' src={github} alt='' />
             <div className='absolute flex flex-col justify-center items-center text-center text-white bg-black/70 w-[400px] lg:w-[600px] p-5 lg:p-10 gap-3'>
-              <h1 className='text-xl lg:text-4xl md:font-bold'>Project 2: Dex</h1>
-              <span className='text-sm lg:text-xl'>A responsive food delivery website for all your needs. A one stop shop to get your veggies and fruits delivered right at your doorstep.</span>
+              <h1 className='text-xl lg:text-4xl md:font-bold'>Project 2: Github ProfileViewer</h1>
+              <span className='text-sm lg:text-xl'>A complete responsive GitHub Profile Viewer for your ease.</span>
                 <div className='flex gap-10'>
                   <Link href='https://strong-monstera-3b1957.netlify.app'> <button className='bg-white text-black text-md lg:text-xl font-bold px-5 py-2 lg:py-3 rounded-md border-b border-black'>Link</button> </Link>
                   <Link href='https://github.com/blacurrant/uEngage-dex'> <button className='bg-white text-black text-md lg:text-xl font-bold px-5 py-2 lg:py-3 rounded-md border-b border-black' >Github</button> </Link>
@@ -44,10 +44,10 @@ function Projects({}: Props) {
             </div>
           </div>
           <div className='relative w-fit flex flex-col flex-shrink-0 justify-center items-center snap-center rounded-sm h-[700px]'>
-            <Image className='opacity-70 hover:opacity-20 transition-all duration-200' src={portfolio} alt='' />
+            <Image className='opacity-70 hover:opacity-20 transition-all duration-200' src={sum} alt='' />
             <div className='absolute flex flex-col justify-center items-center text-center text-white bg-black/70 w-[400px] lg:w-[600px] p-5 lg:p-10 gap-3'>
-              <h1 className='text-xl lg:text-4xl md:font-bold'>Project 3: Portfolio</h1>
-              <span className='text-sm lg:text-xl'>For the lack thereof projects, You're seeing it right now.</span>
+              <h1 className='text-xl lg:text-4xl md:font-bold'>Sumz</h1>
+              <span className='text-sm lg:text-xl'>Simplify your reading with Sumz, an open-source article summarizer that transforms lengthy articles into clear and concise summaries. Takes website URL as input for user ease.</span>
                 <div className='flex gap-10'>
                   <button className='bg-white text-black text-md lg:text-xl font-bold px-5 py-2 lg:py-3 rounded-md border-b border-black'>Link</button>
                   <button className='bg-white text-black text-md lg:text-xl font-bold px-5 py-2 lg:py-3 rounded-md border-b border-black' >Github</button>
